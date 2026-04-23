@@ -1,0 +1,29 @@
+{
+  "name": "milestone-master",
+  "version": "1.0.0",
+  "description": "项目里程碑管理系统",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "dayjs": "^1.11.10",
+    "element-plus": "^2.5.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "@vitest/ui": "^4.1.2",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^29.0.1",
+    "vite": "^5.0.0",
+    "vitest": "^4.1.2"
+  }
+}
