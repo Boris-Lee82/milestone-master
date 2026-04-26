@@ -17,12 +17,12 @@ git init
 git config user.email "boris_lee82@126.com"
 git config user.name "敬天爱人AI工作室"
 git add .
-git commit -m "Deploy Milestone Master V1.0.008"
+git commit -m "Deploy Milestone Master V1.0.009"
 
 # 4. 部署到 GitHub Pages
 echo "🌐 部署到 GitHub Pages..."
 echo "请手动执行以下命令:"
-echo "git remote add origin https://github.com/YOUR_USERNAME/milestone-master.git"
+echo "git remote add origin https://github.com/boris-lee82/milestone-master.git"
 echo "git push -f origin master:gh-pages"
 
 echo "✅ 构建完成！"
