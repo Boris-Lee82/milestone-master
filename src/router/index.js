@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MilestoneView from '@/views/MilestoneView.vue'
 import TodoView from '@/views/TodoView.vue'
 import OverviewView from '@/views/OverviewView.vue'
@@ -50,7 +50,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes
 })
 
