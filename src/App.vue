@@ -2,7 +2,18 @@
   <el-container class="app-container" v-if="isLoaded">
     <el-aside width="200px" class="sidebar">
       <div class="logo">
-        <el-icon><DataLine /></el-icon>
+        <svg class="logo-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#409EFF"/>
+              <stop offset="100%" style="stop-color:#1890ff"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="14" fill="url(#lg)"/>
+          <path d="M16 44 L32 20 L48 44" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="24" y1="36" x2="40" y2="36" stroke="white" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="32" cy="18" r="3" fill="white"/>
+        </svg>
         <span>里程碑管理</span>
       </div>
       <el-menu
@@ -138,6 +149,12 @@ onMounted(async () => {
   gap: 10px;
   border-bottom: 1px solid var(--border-color);
   color: var(--primary-color);
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
 }
 
 .sidebar-menu {
