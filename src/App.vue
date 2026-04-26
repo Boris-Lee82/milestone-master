@@ -145,6 +145,10 @@ onMounted(async () => {
   flex: 1;
 }
 
+.sidebar-menu .el-icon {
+  color: var(--primary-color);
+}
+
 .header {
   background-color: var(--card-bg);
   border-bottom: 1px solid var(--border-color);
